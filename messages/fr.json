@@ -321,9 +321,14 @@
   "craft": {
     "kicker": "Savoir-faire de l’ETA",
     "title": "Des métiers utiles, pour les uns et pour les autres.",
-    "lead": "Au-delà de la table, le Moulin travaille le textile, le bois, la peinture, les jardins, le conditionnement. Particuliers d’un côté, entreprises et administrations de l’autre.",
+    "lead": "Au-delà de la table, le Moulin travaille le textile, le bois, la peinture, les jardins, le conditionnement — pour les particuliers comme pour les entreprises et administrations.",
     "particuliers": "Pour les particuliers",
     "entreprises": "Pour les entreprises",
+    "audienceLabel": {
+      "particuliers": "Particuliers",
+      "entreprises": "Entreprises",
+      "both": "Particuliers & entreprises"
+    },
     "cta": "Parler de ce service",
     "readPage": "Voir la page",
     "includes": "Ce service comprend",

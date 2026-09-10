@@ -321,9 +321,14 @@
   "craft": {
     "kicker": "Vakmanschap van de ETA",
     "title": "Nuttige beroepen, voor particulieren en bedrijven.",
-    "lead": "Naast de tafel werkt de Molen textiel, hout, verf, tuinen en verpakking. Particulieren enerzijds, bedrijven en overheden anderzijds.",
+    "lead": "Naast de tafel werkt de Molen textiel, hout, verf, tuinen en verpakking — voor particulieren én voor bedrijven en overheden.",
     "particuliers": "Voor particulieren",
     "entreprises": "Voor bedrijven",
+    "audienceLabel": {
+      "particuliers": "Particulieren",
+      "entreprises": "Bedrijven",
+      "both": "Particulieren & bedrijven"
+    },
     "cta": "Over deze dienst praten",
     "readPage": "Bekijk de pagina",
     "includes": "Deze dienst omvat",
