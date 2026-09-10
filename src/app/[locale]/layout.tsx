@@ -11,6 +11,7 @@ import { CookieBanner } from "@/components/CookieBanner";
 import { FloatingActions } from "@/components/FloatingActions";
 import { Analytics } from "@/components/Analytics";
 import { JsonLd } from "@/components/JsonLd";
+import { getSiteUrl } from "@/lib/site";
 import "../globals.css";
 
 const fraunces = Fraunces({
@@ -30,9 +31,7 @@ export function generateStaticParams() {
 }
 
 export const metadata = {
-  metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
-  ),
+  metadataBase: new URL(getSiteUrl()),
 };
 
 export default async function LocaleLayout({

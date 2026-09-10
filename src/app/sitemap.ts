@@ -3,8 +3,9 @@ import { routing } from "@/i18n/routing";
 import { getPathname } from "@/i18n/navigation";
 import { rooms } from "@/lib/rooms";
 import { skills } from "@/lib/skills";
+import { getSiteUrl } from "@/lib/site";
 
-const host = process.env.NEXT_PUBLIC_SITE_URL ?? "https://moulindelahunelle.be";
+const host = getSiteUrl();
 
 const pages = [
   "/",

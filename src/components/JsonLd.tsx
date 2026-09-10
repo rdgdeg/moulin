@@ -1,4 +1,4 @@
-import { site } from "@/lib/site";
+import { getSiteUrl, site } from "@/lib/site";
 
 export function JsonLd() {
   const data = {
@@ -6,7 +6,7 @@ export function JsonLd() {
     "@graph": [
       {
         "@type": "Restaurant",
-        "@id": `${process.env.NEXT_PUBLIC_SITE_URL ?? "https://moulindelahunelle.be"}/#restaurant`,
+        "@id": `${getSiteUrl()}/#restaurant`,
         name: site.name,
         telephone: site.phoneHref.replace("tel:", ""),
         email: site.email,

@@ -20,6 +20,14 @@ export const site = {
   capacityMax: 250,
 } as const;
 
+export function getSiteUrl() {
+  const fromEnv = process.env.NEXT_PUBLIC_SITE_URL?.trim();
+  if (fromEnv) return fromEnv.replace(/\/$/, "");
+  return process.env.NODE_ENV === "production"
+    ? "https://moulindelahunelle.be"
+    : "http://localhost:3000";
+}
+
 export const weekDays = [
   "monday",
   "tuesday",
