@@ -1,0 +1,10 @@
+{
+  "hoursNote": "Restaurant : service du midi uniquement, du lundi au vendredi. Fermé le soir, le samedi et le dimanche.",
+  "lunchFrom": "12:00",
+  "lunchTo": "14:00",
+  "officeHours": "Lundi–jeudi 8h–16h30 · Vendredi 8h–14h30",
+  "homeMealPrice": "8 €",
+  "homeMealFormula": "Potage + plat + dessert",
+  "banner": "",
+  "takeaway": true
+}

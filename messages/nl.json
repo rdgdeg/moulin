@@ -1,0 +1,442 @@
+{
+  "meta": {
+    "siteName": "Le Moulin de la Hunelle",
+    "homeTitle": "Zalen huren, restaurant en maaltijden aan huis in Chièvres",
+    "homeDescription": "ETA in Chièvres: zalen van 20 tot 250 personen, lunchrestaurant en warme maaltijden aan huis.",
+    "restaurantTitle": "Lunchrestaurant in Chièvres",
+    "restaurantDescription": "Franse keuken, dagschotel en suggesties, veranda op het park. Alleen ’s middags. Gratis parking, toegankelijk.",
+    "roomsTitle": "Zalen huren in Chièvres — seminars, huwelijken, banketten",
+    "roomsDescription": "Vier modulaire zalen van 20 tot 250 personen, gratis parking en catering door het team van de Molen.",
+    "homeMealsTitle": "Maaltijden aan huis in Chièvres, Ath, Belœil, Lens en Brugelette",
+    "homeMealsDescription": "Soep, hoofdgerecht en dessert aan huis. Aangepaste texturen mogelijk. Dienst van ETA Le Moulin de la Hunelle.",
+    "craftTitle": "Vakmanschap van de ETA — stoffering, confectie, tuinen…",
+    "craftDescription": "Ateliers van de Molen: stoffering, confectie, wasserij, schrijnwerkerij, schilderwerk, verpakking, parken en tuinen.",
+    "aboutTitle": "Le Moulin de la Hunelle, ETA in Chièvres sinds 1971",
+    "aboutDescription": "Onderneming voor aangepast werk aan de Hunelle: 100 medewerkers, restaurant, zalen en ateliers.",
+    "contactTitle": "Contact — Le Moulin de la Hunelle",
+    "contactDescription": "Tafel reserveren, offerte voor een zaal of inschrijven voor maaltijden aan huis. Rue d’Ath 90, 7950 Chièvres.",
+    "legalTitle": "Wettelijke vermeldingen",
+    "privacyTitle": "Privacybeleid",
+    "sitemapTitle": "Sitemap"
+  },
+  "nav": {
+    "home": "Home",
+    "restaurant": "Restaurant",
+    "rooms": "Zalen",
+    "homeMeals": "Maaltijden aan huis",
+    "craft": "Vakmanschap",
+    "about": "De Molen",
+    "contact": "Contact",
+    "cta": "Reserveren / offerte",
+    "menu": "Menu",
+    "close": "Sluiten",
+    "eta": "ETA · Onderneming voor aangepast werk"
+  },
+  "footer": {
+    "tagline": "ETA in Chièvres — zalen, restaurant, maaltijden aan huis.",
+    "poles": "Onze diensten",
+    "madeBy": "Site réalisé par",
+    "visit": "Naar de Molen",
+    "hours": "Onthaaluren",
+    "restaurantHours": "Restauranturen",
+    "restaurantHoursNote": "Alleen ’s middags, maandag–vrijdag",
+    "legal": "Wettelijke vermeldingen",
+    "privacy": "Privacy",
+    "facebook": "Facebook",
+    "eta": "Onderneming voor aangepast werk · Provincie Henegouwen",
+    "copyright": "Le Moulin de la Hunelle",
+    "itinerary": "Route",
+    "map": "Toegangskaart",
+    "sitemap": "Sitemap"
+  },
+  "common": {
+    "call": "Bellen",
+    "email": "Mailen",
+    "book": "Reserveren",
+    "backToTop": "Naar boven",
+    "readMore": "Ontdekken",
+    "skip": "Naar de inhoud",
+    "from": "Vanaf",
+    "people": "personen",
+    "m2": "m²",
+    "quote": "Offerte vragen",
+    "reserve": "Tafel reserveren",
+    "subscribe": "Inschrijven",
+    "onQuote": "Op offerte",
+    "freeParking": "Gratis parking",
+    "pmr": "Toegankelijk",
+    "cateringOnSite": "Catering ter plaatse",
+    "lunchOnly": "Alleen ’s middags",
+    "seeRooms": "Zalen bekijken",
+    "capacity": "Capaciteit"
+  },
+  "home": {
+    "slides": {
+      "lieu": {
+        "kicker": "ETA · Chièvres · sinds 1971",
+        "title": "Een molen, een park, een tafel.",
+        "text": "Onderneming voor aangepast werk in een oude molen, tussen Ath en Bergen: een groene plek om te ontvangen, te lunchen en te laten leveren.",
+        "cta": "Ontdek de plek"
+      },
+      "restaurant": {
+        "kicker": "Restaurant",
+        "title": "’s Middags, seizoenskeuken.",
+        "text": "Dagschotel, weeksuggesties, veranda op het park. ’s Avonds zijn we gesloten — en dat is prima.",
+        "cta": "Bekijk het weekmenu"
+      },
+      "salles": {
+        "kicker": "Zalen van 20 tot 250 personen",
+        "title": "Uw event, zonder externe traiteur.",
+        "text": "Vier modulaire zalen, parking ter plaatse, maaltijden door ons team. Seminars, huwelijken, communies, AV.",
+        "cta": "Offerte vragen"
+      },
+      "repas": {
+        "kicker": "Maaltijden aan huis",
+        "title": "Een warme maaltijd, bij u geleverd.",
+        "text": "Soep, hoofdgerecht en dessert, aangepaste texturen. Chièvres, Ath, Belœil, Lens, Brugelette.",
+        "cta": "Inschrijven"
+      }
+    },
+    "scroll": "Ontdek de site",
+    "prevSlide": "Vorige slide",
+    "nextSlide": "Volgende slide",
+    "introKicker": "Chièvres · sinds 1971",
+    "etaBadge": "Onderneming voor aangepast werk",
+    "introYear": "Oprichtingsjaar",
+    "introStaff": "Medewerkers",
+    "introTitle": "Een ETA, met een tafel, zalen — en ateliers.",
+    "introText": "Le Moulin de la Hunelle is een onderneming voor aangepast werk in Chièvres. Eerst drie onthaaldiensten: zalen huren, lunchrestaurant, maaltijden aan huis. Daarnaast werken de ateliers van de ETA verder voor particulieren en bedrijven.",
+    "poles": {
+      "restaurant": {
+        "title": "Restaurant",
+        "text": "Franse lunchkeuken, dagschotel en suggesties. Veranda op het park, afhalen mogelijk.",
+        "cta": "Naar het restaurant"
+      },
+      "rooms": {
+        "title": "Zalen huren",
+        "text": "Vier zalen, 20 tot 250 gasten, catering ter plaatse. Seminars, huwelijken, bedrijfsfeesten.",
+        "cta": "De zalen bekijken"
+      },
+      "meals": {
+        "title": "Maaltijden aan huis",
+        "text": "Soep, hoofdgerecht en dessert, geleverd op weekdagen, volgens uw vraag.",
+        "cta": "De dienst bekijken"
+      }
+    },
+    "proofTitle": "Wat deze plek onderscheidt.",
+    "proofs": {
+      "rating": "Google-reviews",
+      "ratingText": "Stabiele, goede scores, tot nu toe nauwelijks zichtbaar.",
+      "parking": "Vlotte parking",
+      "parkingText": "Gratis, ter plaatse — een pluspunt tegenover zalen in het centrum.",
+      "capacity": "20 tot 250 pers.",
+      "capacityText": "Van een klein comité tot de grote zaal, op dezelfde plek.",
+      "kitchen": "Eigen keuken",
+      "kitchenText": "Geen externe traiteur: het team van de Molen doet het zelf."
+    },
+    "missionKicker": "ETA sinds 1971",
+    "missionTitle": "Een onderneming voor aangepast werk, geen bijzaak.",
+    "missionText": "Ongeveer 100 medewerkers, grotendeels personen met een handicap, in een oude molen gesteund door de Provincie Henegouwen. De sociale opdracht is geen slogan: het is het dagelijkse werk.",
+    "missionCta": "Ons verhaal",
+    "craftKicker": "De andere beroepen van de ETA",
+    "craftTitle": "Ateliers, ook voor particulieren en bedrijven.",
+    "craftLead": "Stoffering, confectie, tuinen, schrijnwerkerij… Deze diensten blijven in de Molen. Ze wegen minder dan de zalen of het restaurant, maar horen bij het huis.",
+    "craftCta": "Al het vakmanschap",
+    "craftMore": "Ontdekken",
+    "menuKicker": "Deze week",
+    "menuCta": "Volledig menu"
+  },
+  "restaurant": {
+    "kicker": "Restaurant · Chièvres",
+    "title": "Tafelen ’s middags, met zicht op het park.",
+    "lead": "Franse keuken, dagschotel en drie suggesties per week. Het restaurant opent ’s avonds niet: u luncht, u haalt af, u reserveert voor een zakenlunch.",
+    "hoursTitle": "Openingsuren",
+    "menuTitle": "Het weekmenu",
+    "menuLead": "Hetzelfde formaat als op Facebook — één bericht, de hele week. Reserveer telefonisch.",
+    "dish": "Dagschotel",
+    "suggestions": "Suggesties",
+    "galleryTitle": "De tafel, de veranda, het park",
+    "reviewsTitle": "Wat men ervan zegt",
+    "ratingLabel": "Google-reviews",
+    "reviewsLead": "4,2/5 op Google, 4,3/5 op Tripadvisor — stabiele scores, tot nu toe weinig zichtbaar.",
+    "takeaway": "Afhalen",
+    "takeawayText": "’s Middags kunt u de dagschotel ook meenemen. Bestel telefonisch.",
+    "formTitle": "Tafel reserveren",
+    "formLead": "Bellen blijft het eenvoudigst. Dit formulier stuurt ons uw lunchvraag.",
+    "photos": {
+      "veranda": "De veranda op het park",
+      "plat": "De dagschotel",
+      "table": "Aan tafel",
+      "parc": "Het park van de molen",
+      "hero": "De restaurantszaal",
+      "salle": "De restaurantruimte"
+    },
+    "reviews": [
+      {
+        "quote": "Groene omgeving, warme ontvangst, stevige dagschotel. We komen terug.",
+        "author": "Google-review"
+      },
+      {
+        "quote": "Ideaal voor een lunch met collega’s, vlotte parking, aandachtige service.",
+        "author": "Restaurantgast"
+      },
+      {
+        "quote": "De veranda op het park maakt het verschil. Eenvoudige, verzorgde keuken.",
+        "author": "Tripadvisor"
+      }
+    ]
+  },
+  "rooms": {
+    "kicker": "Zalen huren",
+    "title": "Ontvangen zonder alles zelf te regelen.",
+    "lead": "Vier modulaire zalen, van 20 tot 250 personen. Gratis parking, toegankelijk, en vooral: de catering gebeurt ter plaatse door ons team. Geen traiteur zoeken.",
+    "whyTitle": "Waarom de Molen",
+    "why": {
+      "kitchen": "Maaltijden ter plaatse",
+      "kitchenText": "Banket, cocktail of koffiepauze: één team, één aanspreekpunt.",
+      "parking": "Makkelijke parking",
+      "parkingText": "Ter plaatse, gratis — in tegenstelling tot de meeste zalen in Ath.",
+      "flex": "20 tot 250 personen",
+      "flexText": "Van een seminar in U-vorm tot een huwelijk in de grote zaal.",
+      "green": "Groene setting",
+      "greenText": "Oude molen, park, rivier. Op minuten van de bedrijventerreinen van Ath, Ghislenghien en Leuze."
+    },
+    "listTitle": "De vier zalen",
+    "seeRoom": "Bekijk de zaal",
+    "capacityTitle": "Opstellingen",
+    "otherRooms": "De andere zalen",
+    "formTitle": "Offerte vragen",
+    "formLead": "Vermeld de zaal, de datum en het aantal personen. Wij sturen u een voorstel.",
+    "servicesKicker": "Inbegrepen",
+    "servicesTitle": "De diensten die bij de zaal horen.",
+    "servicesLead": "U huurt een plek, niet alleen vier muren: catering, onthaal en materiaal worden door het team van de Molen geregeld.",
+    "services": {
+      "catering": "Catering ter plaatse",
+      "cateringText": "Koffiepauze, lunch, cocktail of banket: de keuken van de Molen doet het. Geen externe traiteur.",
+      "parking": "Gratis parking",
+      "parkingText": "Ter plaatse, voor uw gasten en teams. Een pluspunt buiten het stadscentrum.",
+      "pmr": "Toegankelijk",
+      "pmrText": "Zalen en restaurant toegankelijk voor personen met beperkte mobiliteit.",
+      "equipment": "Vergadermateriaal",
+      "equipmentText": "Flipchart, micro, geluid: wat u nodig hebt voor een seminar of AV, op vraag.",
+      "wifi": "Wi-Fi",
+      "wifiText": "Verbinding voor presentaties, opleidingen en teamvergaderingen.",
+      "park": "Groene setting",
+      "parkText": "Park, rivier, oude molen: een landelijke plek op minuten van Ath.",
+      "staff": "Eén aanspreekpunt",
+      "staffText": "Het team coördineert zaal, maaltijd en onthaal. U stapelt geen leveranciers."
+    },
+    "pricingKicker": "Prijzen",
+    "pricingTitle": "Een offerte volgens uw event.",
+    "pricingLead": "De zalen worden verhuurd op offerte: de prijs hangt af van de zaal, de opstelling, het aantal gasten en de cateringformule.",
+    "pricingValueLabel": "Verhuur",
+    "pricingValue": "Op offerte",
+    "pricingNote": "Vraag een offerte: wij komen terug met een duidelijk voorstel, zonder verplichting.",
+    "pricingFactors": [
+      "Zaal en opstelling",
+      "Aantal personen",
+      "Cateringformule (pauze, lunch, banket)",
+      "Dag en duur van het event"
+    ],
+    "quoteCta": "Offerte voor deze zaal",
+    "configs": {
+      "u": "U-vorm",
+      "school": "School",
+      "theater": "Theater",
+      "banquet": "Banket",
+      "cocktail": "Cocktail"
+    },
+    "eventsTitle": "Voor welke events",
+    "events": ["Seminars", "Huwelijken", "Communies", "Banketten", "Algemene vergaderingen", "Bedrijfsfeesten"],
+    "items": {
+      "salle-moyenne": {
+        "name": "Middelgrote zaal",
+        "text": "Ideaal voor een meeting, workshop of teamlunch. Licht en compact."
+      },
+      "salle-rustique": {
+        "name": "Rustieke zaal",
+        "text": "Het karakter van de molen, perfect voor een comité, een intieme communie of een cocktail."
+      },
+      "restaurant": {
+        "name": "Restaurantzaal",
+        "text": "De restaurantruimte, geprivatiseerd voor een banket of een grotere zakenlunch."
+      },
+      "grande-salle": {
+        "name": "Grote zaal",
+        "text": "Tot 250 personen in theateropstelling, 230 als banket. Huwelijken, eindejaarsfeesten, congressen."
+      }
+    }
+  },
+  "meals": {
+    "kicker": "Maaltijden aan huis",
+    "title": "Een volledige maaltijd, bij u geleverd.",
+    "lead": "Elke weekdag: soep, hoofdgerecht en dessert. Het menu volgt dat van het restaurant. Op vraag: koude schotel en aangepaste texturen (gesneden vlees, gemalen maaltijd).",
+    "priceLabel": "Formule",
+    "zoneTitle": "Leveringszone",
+    "zoneLead": "Chièvres, Belœil, Lens, Brugelette en het centrum van Ath — plus omliggende dorpen (Ligne, Rebaix, Ormeignies, Moulbaix, Isières, Irchonwelz, Blicquy, Autreppe…).",
+    "points": {
+      "daily": {
+        "title": "Elke weekdag",
+        "text": "Volgens uw vraag: het dagmenu of een koude vervangschotel."
+      },
+      "texture": {
+        "title": "Aangepaste texturen",
+        "text": "Gesneden vlees of gemalen maaltijd, zonder extra rompslomp: een telefoontje volstaat."
+      },
+      "human": {
+        "title": "Liever de telefoon",
+        "text": "Ouderen gaan vaak via een naaste, een arts of het OCMW. Het nummer staat hier het grootst."
+      }
+    },
+    "formTitle": "Inschrijving",
+    "formLead": "Beschrijf uw vraag: wij bellen terug. Voor een snelle inschrijving belt u ons.",
+    "serviceKicker": "De dienst"
+  },
+  "craft": {
+    "kicker": "Vakmanschap van de ETA",
+    "title": "Nuttige beroepen, voor particulieren en bedrijven.",
+    "lead": "Naast de tafel werkt de Molen textiel, hout, verf, tuinen en verpakking. Particulieren enerzijds, bedrijven en overheden anderzijds.",
+    "particuliers": "Voor particulieren",
+    "entreprises": "Voor bedrijven",
+    "cta": "Over deze dienst praten",
+    "readPage": "Bekijk de pagina",
+    "includes": "Deze dienst omvat",
+    "forWho": "Voor wie",
+    "area": "Zone",
+    "otherSkills": "Ander vakmanschap",
+    "galleryTitle": "Het atelier in beeld",
+    "galleryCaption": "Sfeerfoto — later te vervangen",
+    "formLead": "Beschrijf uw vraag: wij nemen contact op. Telefoneren blijft het eenvoudigst.",
+    "items": {
+      "garnissage": {
+        "name": "Stoffering",
+        "text": "Opvullen en restaureren van fauteuils, sofa’s en stoelen."
+      },
+      "confection": {
+        "name": "Confectie en borduurwerk",
+        "text": "Naaiwerk, retouches, borduurwerk — ook voor de luxesector."
+      },
+      "blanchisserie": {
+        "name": "Wasserij en strijken",
+        "text": "Strijkservice, onder meer via dienstencheques."
+      },
+      "menuiserie": {
+        "name": "Schrijnwerkerij",
+        "text": "Maatwerk en kleine schrijnwerken, voor thuis of op het werk."
+      },
+      "peinture": {
+        "name": "Schilderwerk",
+        "text": "Binnen, buiten en in spuitcabine."
+      },
+      "conditionnement": {
+        "name": "Verpakking",
+        "text": "Co-packing, manuele en semi-industriële verpakking."
+      },
+      "jardins": {
+        "name": "Parken en tuinen",
+        "text": "Groenonderhoud, tuinbouw, waterlopen, invasieve planten."
+      },
+      "abattoir": {
+        "name": "Slachthuis",
+        "text": "Lokale agrovoeding, voor professionals uit de sector."
+      }
+    }
+  },
+  "about": {
+    "kicker": "De Molen",
+    "title": "Een molen aan het werk sinds 1971.",
+    "lead": "Opgericht door buurtbewoners vestigde de vzw zich in een oude molen aan de Hunelle. Sinds 1976 wordt ze georganiseerd door de Provincie Henegouwen.",
+    "story": "Het doel is onveranderd: volwassenen tewerkstellen, valoriseren en belonen voor wie een gewoon circuit tijdelijk of duurzaam moeilijk is. Vandaag draaien ongeveer 100 medewerkers het restaurant, de zalen, de leveringen en de ateliers.",
+    "stats": {
+      "year": "Oprichtingsjaar",
+      "people": "Medewerkers",
+      "rooms": "Modulaire zalen",
+      "eta": "Statuut"
+    },
+    "eta": "Onderneming voor aangepast werk",
+    "accessTitle": "Naar de Molen",
+    "access": "Rue d’Ath 90, op de grens van Ath en Chièvres. Gratis parking, rolstoeltoegang, aangepaste veranda en restaurant.",
+    "valuesTitle": "Wat dat voor u verandert",
+    "valuesText": "De Molen kiezen is een maaltijd, een zaal of een dienst. Het is ook lokale, niet-verplaatsbare tewerkstelling. Zonder dat dit het enige argument wordt: keuken en onthaal staan eerst op eigen kracht."
+  },
+  "contact": {
+    "kicker": "Contact",
+    "title": "Zeg ons wat u nodig hebt.",
+    "lead": "Een tafel, een zaal, een maaltijd of een atelier: kies het onderwerp, het formulier past zich aan. Telefoneren blijft het snelst.",
+    "phoneHelp": "Het eenvoudigst, vooral voor een tafel of maaltijden aan huis.",
+    "addressLabel": "Adres",
+    "hoursLabel": "Onthaaluren",
+    "parking": "Gratis parking ter plaatse.",
+    "accessTitle": "Naar de Molen",
+    "access": "Rue d’Ath 90, 7950 Chièvres — op de grens met Ath. Vanuit Bergen of Doornik: richting Ath, dan Chièvres.",
+    "pmr": "Toegankelijk met rolstoel. Restaurant en zalen aangepast.",
+    "itinerary": "Route openen",
+    "formTitle": "Uw vraag",
+    "formLead": "Kies eerst het onderwerp: de nuttige velden verschijnen daarna.",
+    "objects": {
+      "restaurant": "Restaurant — tafel reserveren",
+      "salles": "Zalen — offerte",
+      "repas": "Maaltijden aan huis — inschrijving",
+      "savoir-faire": "Andere dienst / atelier",
+      "autre": "Andere vraag"
+    },
+    "fields": {
+      "object": "Onderwerp",
+      "name": "Naam",
+      "email": "E-mail",
+      "phone": "Telefoon",
+      "workshop": "Betrokken atelier",
+      "commune": "Gemeente van levering",
+      "date": "Gewenste datum",
+      "guests": "Aantal personen",
+      "message": "Bericht",
+      "submit": "Verzenden",
+      "sending": "Verzenden…",
+      "success": "Dank u. Uw bericht is verzonden. Wij nemen snel contact op.",
+      "error": "Verzenden mislukt. Bel ons op 068 65 67 67."
+    }
+  },
+  "days": {
+    "monday": "Maandag",
+    "tuesday": "Dinsdag",
+    "wednesday": "Woensdag",
+    "thursday": "Donderdag",
+    "friday": "Vrijdag",
+    "saturday": "Zaterdag",
+    "sunday": "Zondag"
+  },
+  "legal": {
+    "title": "Wettelijke vermeldingen",
+    "publisher": "Uitgever",
+    "publisherText": "VZW Le Moulin de la Hunelle — Onderneming voor aangepast werk. Rue d’Ath 90, 7950 Chièvres. Tel. 068 65 67 67. info@hunelle.be.",
+    "hosting": "Hosting",
+    "hostingText": "Site gerealiseerd door LD Media. Hosting wordt bij de lancering bevestigd.",
+    "credits": "Fotocredits",
+    "creditsText": "Sfeerbeelden in afwachting van de fotobank van de Molen (Unsplash). Definitieve beelden vervangen deze placeholders."
+  },
+  "privacy": {
+    "title": "Privacy",
+    "intro": "Formulieren verzamelen naam, e-mail, telefoon en bericht om uw vraag te behandelen. Gegevens worden niet verkocht.",
+    "retention": "Bewaring",
+    "retentionText": "Berichten worden bewaard zolang de vraag loopt, daarna beperkt gearchiveerd voor opvolging.",
+    "rights": "Uw rechten",
+    "rightsText": "U kunt toegang, rechtzetting of wissing vragen via info@hunelle.be.",
+    "cookies": "Cookies",
+    "cookiesText": "Een banner laat u toe de audience-meting (Google Analytics) te aanvaarden of te weigeren, als die actief is."
+  },
+  "sitemap": {
+    "title": "Sitemap",
+    "lead": "Alle pagina’s van de Molen, om een zaal, het restaurant, een atelier of de wettelijke vermeldingen te vinden.",
+    "main": "Hoofdpagina’s",
+    "legal": "Wettelijke informatie",
+    "legalLink": "Wettelijke vermeldingen",
+    "privacyLink": "Privacy"
+  },
+  "cookies": {
+    "title": "Cookies",
+    "text": "We gebruiken een audience-tool als u dat aanvaardt. Weigeren hindert het surfen niet.",
+    "more": "Meer info",
+    "accept": "Aanvaarden",
+    "refuse": "Weigeren"
+  }
+}

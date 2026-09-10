@@ -1,0 +1,141 @@
+import Image from "next/image";
+import { Suspense } from "react";
+import type { Metadata } from "next";
+import { getTranslations, setRequestLocale } from "next-intl/server";
+import { PageHero } from "@/components/PageHero";
+import { WeeklyMenu } from "@/components/WeeklyMenu";
+import { ContactForm } from "@/components/ContactForm";
+import { PhotoMosaic } from "@/components/PhotoMosaic";
+import { Reveal } from "@/components/Reveal";
+import { getMenu, getSettings } from "@/lib/content";
+import { site } from "@/lib/site";
+
+type Props = { params: Promise<{ locale: string }> };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "meta" });
+  return {
+    title: `${t("restaurantTitle")} · ${t("siteName")}`,
+    description: t("restaurantDescription"),
+  };
+}
+
+export default async function RestaurantPage({ params }: Props) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations("restaurant");
+  const common = await getTranslations("common");
+  const menu = await getMenu();
+  const settings = await getSettings();
+  const reviews = t.raw("reviews") as { quote: string; author: string }[];
+
+  return (
+    <>
+      <PageHero
+        kicker={t("kicker")}
+        title={t("title")}
+        lead={t("lead")}
+        image="/images/hero/restaurant.jpg"
+      />
+      <section className="bg-white py-12 lg:py-16">
+        <div className="mx-auto grid max-w-7xl gap-12 bg-moss px-8 py-14 text-white lg:grid-cols-2 lg:px-14 lg:py-16">
+          <Reveal>
+            <p className="text-[0.7rem] uppercase tracking-[0.2em] text-white/80">
+              {t("hoursTitle")}
+            </p>
+            <p className="font-display mt-4 text-4xl sm:text-5xl">
+              {settings.lunchFrom} – {settings.lunchTo}
+            </p>
+            <p className="mt-5 max-w-lg text-lg text-white/90">{settings.hoursNote}</p>
+            <a
+              href={site.phoneHref}
+              className="mt-8 inline-flex bg-white px-6 py-3 text-sm font-medium text-moss transition duration-300 hover:bg-white/90"
+            >
+              {common("call")} {site.phone}
+            </a>
+          </Reveal>
+          <Reveal delay={120}>
+            <h2 className="font-display text-4xl">{t("takeaway")}</h2>
+            <p className="mt-5 text-lg leading-relaxed text-white/90">{t("takeawayText")}</p>
+            <p className="mt-6 text-white/90">{t("menuLead")}</p>
+          </Reveal>
+        </div>
+      </section>
+      <section className="bg-paper-soft">
+        <div className="mx-auto max-w-7xl px-5 py-20 lg:px-8">
+          <Reveal>
+            <h2 className="font-display mb-8 text-4xl">{t("menuTitle")}</h2>
+          </Reveal>
+          <Reveal delay={80}>
+            <WeeklyMenu menu={menu} />
+          </Reveal>
+        </div>
+      </section>
+      <section className="bg-white py-12 lg:py-16">
+        <div className="mx-auto grid max-w-7xl lg:grid-cols-2">
+          <Reveal className="h-full bg-white px-8 py-14 lg:px-14 lg:py-16">
+            <div className="mb-8 flex flex-wrap items-end justify-between gap-4">
+              <div>
+                <h2 className="font-display text-4xl">{t("reviewsTitle")}</h2>
+                <p className="mt-3 max-w-md text-stone">{t("reviewsLead")}</p>
+              </div>
+              <div>
+                <p className="text-3xl font-semibold text-moss">{site.rating}</p>
+                <p className="mt-1 text-xs tracking-[0.16em] text-stone uppercase">
+                  {t("ratingLabel")}
+                </p>
+              </div>
+            </div>
+            <div className="grid gap-5">
+              {reviews.map((review) => (
+                <blockquote key={review.quote} className="border-l-2 border-moss pl-5">
+                  <p className="text-base leading-relaxed">“{review.quote}”</p>
+                  <footer className="mt-3 text-sm text-stone">{review.author}</footer>
+                </blockquote>
+              ))}
+            </div>
+          </Reveal>
+          <Reveal className="h-full bg-paper-soft px-8 py-14 lg:px-14 lg:py-16" delay={120}>
+            <h2 className="font-display text-4xl">{t("formTitle")}</h2>
+            <p className="mt-3 mb-8 text-stone">{t("formLead")}</p>
+            <Suspense>
+              <ContactForm />
+            </Suspense>
+          </Reveal>
+        </div>
+      </section>
+      <PhotoMosaic
+        title={t("galleryTitle")}
+        photos={[
+          {
+            src: "/images/restaurant/veranda.jpg",
+            caption: t("photos.veranda"),
+            className: "col-span-2 row-span-2 min-h-72 lg:min-h-[28rem]",
+          },
+          {
+            src: "/images/restaurant/plat.jpg",
+            caption: t("photos.plat"),
+          },
+          {
+            src: "/images/hero/restaurant.jpg",
+            caption: t("photos.hero"),
+          },
+          {
+            src: "/images/restaurant/table.jpg",
+            caption: t("photos.table"),
+          },
+          {
+            src: "/images/lieu/parc.jpg",
+            caption: t("photos.parc"),
+          },
+          {
+            src: "/images/salles/restaurant-salle.jpg",
+            caption: t("photos.salle"),
+            className: "col-span-2 min-h-52 lg:col-span-4",
+          },
+        ]}
+      />
+    </>
+  );
+}

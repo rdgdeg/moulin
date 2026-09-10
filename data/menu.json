@@ -1,0 +1,27 @@
+{
+  "weekLabel": "Semaine du 8 au 12 septembre 2026",
+  "updatedAt": "2026-09-08",
+  "note": "Réservations au 068 65 67 67 ou info@hunelle.be — service du midi uniquement.",
+  "days": {
+    "monday": {
+      "dish": "Blanquette de veau à l’ancienne, pommes duchesse",
+      "suggestions": ["Filet de lieu, sauce citronnée, riz", "Chicons au gratin"]
+    },
+    "tuesday": {
+      "dish": "Rôti de porc à la moutarde, petits pois et carottes",
+      "suggestions": ["Pavé de saumon, épinards", "Lasagnes végétariennes"]
+    },
+    "wednesday": {
+      "dish": "Vol-au-vent de volaille, frites maison",
+      "suggestions": ["Cabillaud meunière, pommes nature", "Quiche du jardin"]
+    },
+    "thursday": {
+      "dish": "Carbonade flamande, stoemp aux carottes",
+      "suggestions": ["Filet de dinde, chou-fleur au gratin", "Risotto aux champignons"]
+    },
+    "friday": {
+      "dish": "Waterzooi de poissons, pommes vapeur",
+      "suggestions": ["Boulets sauce lapin, frites", "Assiette froide du Moulin"]
+    }
+  }
+}

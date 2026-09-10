@@ -1,0 +1,442 @@
+{
+  "meta": {
+    "siteName": "Le Moulin de la Hunelle",
+    "homeTitle": "Location de salles, restaurant et repas à domicile à Chièvres",
+    "homeDescription": "ETA à Chièvres : location de salles de 20 à 250 personnes, restaurant du midi et repas chauds livrés à domicile.",
+    "restaurantTitle": "Restaurant du midi à Chièvres",
+    "restaurantDescription": "Cuisine française, plat du jour et suggestions, véranda sur le parc. Service du midi uniquement. Parking gratuit, accès PMR.",
+    "roomsTitle": "Location de salles à Chièvres — séminaires, mariages, banquets",
+    "roomsDescription": "Quatre salles modulables de 20 à 250 personnes, parking gratuit et restauration assurée sur place par l’équipe du Moulin.",
+    "homeMealsTitle": "Repas à domicile à Chièvres, Ath, Belœil, Lens et Brugelette",
+    "homeMealsDescription": "Potage, plat et dessert livrés à domicile. Textures adaptées, plat froid possible. Service de l’ETA Le Moulin de la Hunelle.",
+    "craftTitle": "Savoir-faire de l’ETA — garnissage, confection, jardins…",
+    "craftDescription": "Ateliers du Moulin de la Hunelle : garnissage, confection, blanchisserie, menuiserie, peinture, conditionnement, parcs et jardins.",
+    "aboutTitle": "Le Moulin de la Hunelle, ETA à Chièvres depuis 1971",
+    "aboutDescription": "Entreprise de Travail Adapté au bord de la Hunelle : 100 collaborateurs, restaurant, salles et ateliers.",
+    "contactTitle": "Contact — Le Moulin de la Hunelle",
+    "contactDescription": "Réserver une table, demander un devis salle ou s’inscrire aux repas à domicile. Rue d’Ath 90, 7950 Chièvres.",
+    "legalTitle": "Mentions légales",
+    "privacyTitle": "Politique de confidentialité",
+    "sitemapTitle": "Plan du site"
+  },
+  "nav": {
+    "home": "Accueil",
+    "restaurant": "Restaurant",
+    "rooms": "Salles",
+    "homeMeals": "Repas à domicile",
+    "craft": "Savoir-faire",
+    "about": "Le Moulin",
+    "contact": "Contact",
+    "cta": "Réserver / devis",
+    "menu": "Menu",
+    "close": "Fermer",
+    "eta": "ETA · Entreprise de Travail Adapté"
+  },
+  "footer": {
+    "tagline": "ETA à Chièvres — salles, restaurant, repas à domicile.",
+    "poles": "Nos services",
+    "madeBy": "Site réalisé par",
+    "visit": "Venir au Moulin",
+    "hours": "Horaires d’accueil",
+    "restaurantHours": "Horaires du restaurant",
+    "restaurantHoursNote": "Midi uniquement, lundi–vendredi",
+    "legal": "Mentions légales",
+    "privacy": "Confidentialité",
+    "facebook": "Facebook",
+    "eta": "Entreprise de Travail Adapté · Province de Hainaut",
+    "copyright": "Le Moulin de la Hunelle",
+    "itinerary": "Itinéraire",
+    "map": "Plan d’accès",
+    "sitemap": "Plan du site"
+  },
+  "common": {
+    "call": "Appeler",
+    "email": "Écrire",
+    "book": "Réserver",
+    "backToTop": "Haut de page",
+    "readMore": "Découvrir",
+    "skip": "Aller au contenu",
+    "from": "À partir de",
+    "people": "personnes",
+    "m2": "m²",
+    "quote": "Demander un devis",
+    "reserve": "Réserver une table",
+    "subscribe": "S’inscrire",
+    "onQuote": "Sur devis",
+    "freeParking": "Parking gratuit",
+    "pmr": "Accès PMR",
+    "cateringOnSite": "Restauration sur place",
+    "lunchOnly": "Midi uniquement",
+    "seeRooms": "Voir les salles",
+    "capacity": "Capacité"
+  },
+  "home": {
+    "slides": {
+      "lieu": {
+        "kicker": "ETA · Chièvres · depuis 1971",
+        "title": "Un moulin, un parc, une table.",
+        "text": "Entreprise de Travail Adapté dans un ancien moulin, entre Ath et Mons : un cadre champêtre pour recevoir, déjeuner et se faire livrer.",
+        "cta": "Découvrir le lieu"
+      },
+      "restaurant": {
+        "kicker": "Restaurant",
+        "title": "Le midi, une cuisine de saison.",
+        "text": "Plat du jour, suggestions de la semaine, véranda sur le parc. On ne sert pas le soir — et c’est très bien ainsi.",
+        "cta": "Voir le menu de la semaine"
+      },
+      "salles": {
+        "kicker": "Salles de 20 à 250 personnes",
+        "title": "Votre événement, sans traiteur à gérer.",
+        "text": "Quatre salles modulables, parking sur place, repas assuré par notre équipe. Séminaires, mariages, communions, AG.",
+        "cta": "Demander un devis"
+      },
+      "repas": {
+        "kicker": "Repas à domicile",
+        "title": "Un repas chaud, livré chez vous.",
+        "text": "Potage, plat et dessert, textures adaptées. Chièvres, Ath, Belœil, Lens, Brugelette.",
+        "cta": "S’inscrire au service"
+      }
+    },
+    "scroll": "Découvrir le site",
+    "prevSlide": "Slide précédent",
+    "nextSlide": "Slide suivant",
+    "introKicker": "Chièvres · depuis 1971",
+    "etaBadge": "Entreprise de Travail Adapté",
+    "introYear": "Année de création",
+    "introStaff": "Collaborateurs",
+    "introTitle": "Une ETA, avec une table, des salles — et des ateliers.",
+    "introText": "Le Moulin de la Hunelle est une Entreprise de Travail Adapté à Chièvres. Trois activités d’accueil d’abord : location de salles, restaurant du midi, repas livrés à domicile. Autour, les ateliers de l’ETA continuent de travailler pour les particuliers et les entreprises.",
+    "poles": {
+      "restaurant": {
+        "title": "Restaurant",
+        "text": "Cuisine française du midi, plat du jour et suggestions. Véranda sur le parc, plats à emporter.",
+        "cta": "Voir le restaurant"
+      },
+      "rooms": {
+        "title": "Location de salles",
+        "text": "Quatre salles, 20 à 250 convives, restauration sur place. Séminaires, mariages, fêtes d’entreprise.",
+        "cta": "Voir les salles"
+      },
+      "meals": {
+        "title": "Livraison de repas",
+        "text": "Potage, plat et dessert livrés à domicile, chaque jour de la semaine, selon vos demandes.",
+        "cta": "Voir le service"
+      }
+    },
+    "proofTitle": "Ce que l’on retient du lieu.",
+    "proofs": {
+      "rating": "Avis Google",
+      "ratingText": "Notes solides et constantes, à relayer plutôt qu’à cacher.",
+      "parking": "Parking aisé",
+      "parkingText": "Gratuit, sur place — un vrai plus face aux salles de centre-ville.",
+      "capacity": "20 à 250 pers.",
+      "capacityText": "Du comité restreint à la grande salle, sans changer de lieu.",
+      "kitchen": "Cuisine intégrée",
+      "kitchenText": "Pas de traiteur externe à coordonner : l’équipe du Moulin s’en charge."
+    },
+    "missionKicker": "ETA depuis 1971",
+    "missionTitle": "Une entreprise de travail adapté, pas une parenthèse.",
+    "missionText": "Environ 100 collaborateurs, majoritairement des personnes en situation de handicap, dans un ancien moulin soutenu par la Province de Hainaut. La mission sociale n’est pas un slogan : c’est le quotidien de la maison.",
+    "missionCta": "Notre histoire",
+    "craftKicker": "Les autres métiers de l’ETA",
+    "craftTitle": "Ateliers, aussi pour les particuliers et les entreprises.",
+    "craftLead": "Garnissage, confection, jardins, menuiserie… Ces services restent au Moulin. Ils n’ont pas le même poids que les salles ou le restaurant, mais ils font partie de la maison.",
+    "craftCta": "Tous les savoir-faire",
+    "craftMore": "Découvrir",
+    "menuKicker": "Cette semaine",
+    "menuCta": "Menu complet"
+  },
+  "restaurant": {
+    "kicker": "Restaurant · Chièvres",
+    "title": "À table le midi, face au parc.",
+    "lead": "Cuisine française, plat du jour et trois suggestions chaque semaine. Le restaurant n’ouvre pas le soir : on y déjeune, on y emporte, on y réserve pour un déjeuner d’affaires.",
+    "hoursTitle": "Horaires",
+    "menuTitle": "Le menu de la semaine",
+    "menuLead": "Le même format que sur Facebook — une publication, toute la semaine. Réservez par téléphone.",
+    "dish": "Plat du jour",
+    "suggestions": "Suggestions",
+    "galleryTitle": "La table, la véranda, le parc",
+    "reviewsTitle": "Ce que l’on en dit",
+    "ratingLabel": "Avis Google",
+    "reviewsLead": "4,2/5 sur Google, 4,3/5 sur Tripadvisor — des notes stables, trop peu visibles jusqu’ici.",
+    "takeaway": "Plats à emporter",
+    "takeawayText": "Le midi, vous pouvez aussi emporter le plat du jour. Passez commande par téléphone.",
+    "formTitle": "Réserver une table",
+    "formLead": "Le plus simple reste d’appeler. Le formulaire nous transmet votre demande pour un déjeuner.",
+    "photos": {
+      "veranda": "La véranda sur le parc",
+      "plat": "Le plat du jour",
+      "table": "À table",
+      "parc": "Le parc du Moulin",
+      "hero": "La salle restaurant",
+      "salle": "L’espace restaurant"
+    },
+    "reviews": [
+      {
+        "quote": "Cadre verdoyant, accueil chaleureux, plat du jour copieux. On y revient.",
+        "author": "Avis Google"
+      },
+      {
+        "quote": "Idéal pour un déjeuner entre collègues, parking facile, service attentionné.",
+        "author": "Client restaurant"
+      },
+      {
+        "quote": "La véranda sur le parc change tout. Cuisine simple et soignée.",
+        "author": "Tripadvisor"
+      }
+    ]
+  },
+  "rooms": {
+    "kicker": "Location de salles",
+    "title": "Recevoir sans tout organiser.",
+    "lead": "Quatre salles modulables, de 20 à 250 personnes. Parking gratuit, accès PMR, et surtout : la restauration est assurée sur place par l’équipe du Moulin. Pas de traiteur à chercher.",
+    "whyTitle": "Pourquoi le Moulin",
+    "why": {
+      "kitchen": "Repas sur place",
+      "kitchenText": "Banquet, cocktail ou pause café : une seule équipe, un seul interlocuteur.",
+      "parking": "Parking facile",
+      "parkingText": "Sur le site, gratuit — contrairement à la plupart des salles d’Ath.",
+      "flex": "20 à 250 personnes",
+      "flexText": "Du séminaire en U au mariage en grande salle, le même lieu.",
+      "green": "Cadre champêtre",
+      "greenText": "Ancien moulin, parc, rivière. À quelques minutes des zonings d’Ath, Ghislenghien et Leuze."
+    },
+    "listTitle": "Les quatre salles",
+    "seeRoom": "Voir la salle",
+    "capacityTitle": "Configurations",
+    "otherRooms": "Les autres salles",
+    "formTitle": "Demander un devis",
+    "formLead": "Indiquez la salle, la date et le nombre de personnes. Nous vous répondons avec une proposition.",
+    "servicesKicker": "Inclus",
+    "servicesTitle": "Les services qui vont avec la salle.",
+    "servicesLead": "Vous louez un lieu, pas seulement quatre murs : restauration, accueil et matériel sont gérés par l’équipe du Moulin.",
+    "services": {
+      "catering": "Restauration sur place",
+      "cateringText": "Pause café, déjeuner, cocktail ou banquet : la cuisine du Moulin s’en charge. Pas de traiteur externe.",
+      "parking": "Parking gratuit",
+      "parkingText": "Sur le site, pour vos convives et vos équipes. Un vrai plus hors du centre-ville.",
+      "pmr": "Accès PMR",
+      "pmrText": "Salles et restaurant accessibles aux personnes à mobilité réduite.",
+      "equipment": "Matériel de réunion",
+      "equipmentText": "Paperboard, micro, sono : le nécessaire pour un séminaire ou une AG, sur demande.",
+      "wifi": "Wi-Fi",
+      "wifiText": "Connexion pour vos présentations, formations et réunions d’équipe.",
+      "park": "Cadre et espaces extérieurs",
+      "parkText": "Parc, rivière, ancien moulin : un cadre champêtre à quelques minutes d’Ath.",
+      "staff": "Un seul interlocuteur",
+      "staffText": "L’équipe du Moulin coordonne la salle, le repas et l’accueil. Vous n’empilez pas les prestataires."
+    },
+    "pricingKicker": "Tarifs",
+    "pricingTitle": "Un devis selon votre événement.",
+    "pricingLead": "Les salles se louent sur devis : le tarif dépend de la salle, de la configuration, du nombre de convives et de la formule de restauration.",
+    "pricingValueLabel": "Location",
+    "pricingValue": "Sur devis",
+    "pricingNote": "Demandez un devis : nous revenons vers vous avec une proposition claire, sans engagement.",
+    "pricingFactors": [
+      "Salle et configuration",
+      "Nombre de personnes",
+      "Formule restauration (pause, midi, banquet)",
+      "Jour et durée de l’événement"
+    ],
+    "quoteCta": "Demander un devis pour cette salle",
+    "configs": {
+      "u": "En U",
+      "school": "École",
+      "theater": "Théâtre",
+      "banquet": "Banquet",
+      "cocktail": "Cocktail"
+    },
+    "eventsTitle": "Pour quels événements",
+    "events": ["Séminaires", "Mariages", "Communions", "Banquets", "AG d’associations", "Fêtes d’entreprise"],
+    "items": {
+      "salle-moyenne": {
+        "name": "Salle moyenne",
+        "text": "Idéale pour une réunion, un atelier ou un déjeuner d’équipe. Lumineuse et compacte."
+      },
+      "salle-rustique": {
+        "name": "Salle rustique",
+        "text": "Caractère du moulin, parfait pour un comité, une communion intimiste ou un cocktail."
+      },
+      "restaurant": {
+        "name": "Salle restaurant",
+        "text": "L’espace restaurant, privatisé pour un banquet ou un déjeuner d’affaires plus large."
+      },
+      "grande-salle": {
+        "name": "Grande salle",
+        "text": "Jusqu’à 250 personnes en théâtre, 230 en banquet. Mariages, fêtes de fin d’année, congrès."
+      }
+    }
+  },
+  "meals": {
+    "kicker": "Repas à domicile",
+    "title": "Un repas complet, livré chez vous.",
+    "lead": "Chaque jour de la semaine : potage, plat et dessert. Le menu suit celui du restaurant. Sur demande, plat froid et textures adaptées (viande coupée, repas mouliné).",
+    "priceLabel": "Formule",
+    "zoneTitle": "Zone de livraison",
+    "zoneLead": "Chièvres, Belœil, Lens, Brugelette et le centre d’Ath — ainsi que les villages alentour (Ligne, Rebaix, Ormeignies, Moulbaix, Isières, Irchonwelz, Blicquy, Autreppe…).",
+    "points": {
+      "daily": {
+        "title": "Tous les jours de la semaine",
+        "text": "Selon vos demandes, le menu du jour ou un plat froid de remplacement."
+      },
+      "texture": {
+        "title": "Textures adaptées",
+        "text": "Viande coupée ou repas mouliné, sans formalités inutiles : un appel suffit."
+      },
+      "human": {
+        "title": "On préfère le téléphone",
+        "text": "Le public senior passe souvent par un proche, un médecin ou le CPAS. Le numéro est le plus visible de cette page."
+      }
+    },
+    "formTitle": "Demande d’inscription",
+    "formLead": "Décrivez votre besoin : nous vous recontactons. Pour une inscription rapide, appelez-nous.",
+    "serviceKicker": "Le service"
+  },
+  "craft": {
+    "kicker": "Savoir-faire de l’ETA",
+    "title": "Des métiers utiles, pour les uns et pour les autres.",
+    "lead": "Au-delà de la table, le Moulin travaille le textile, le bois, la peinture, les jardins, le conditionnement. Particuliers d’un côté, entreprises et administrations de l’autre.",
+    "particuliers": "Pour les particuliers",
+    "entreprises": "Pour les entreprises",
+    "cta": "Parler de ce service",
+    "readPage": "Voir la page",
+    "includes": "Ce service comprend",
+    "forWho": "Pour qui",
+    "area": "Zone",
+    "otherSkills": "Les autres savoir-faire",
+    "galleryTitle": "L’atelier en images",
+    "galleryCaption": "Photo d’illustration — à remplacer",
+    "formLead": "Indiquez votre besoin : nous vous recontactons. Le téléphone reste le plus simple.",
+    "items": {
+      "garnissage": {
+        "name": "Garnissage",
+        "text": "Rembourrage et rénovation de fauteuils, canapés et sièges."
+      },
+      "confection": {
+        "name": "Confection et broderie",
+        "text": "Couture, retouches, broderie — y compris des prestations pour le secteur du luxe."
+      },
+      "blanchisserie": {
+        "name": "Blanchisserie et repassage",
+        "text": "Service de repassage, notamment via titres-services."
+      },
+      "menuiserie": {
+        "name": "Menuiserie",
+        "text": "Fabrication et petits travaux de menuiserie, pour la maison ou l’entreprise."
+      },
+      "peinture": {
+        "name": "Peinture",
+        "text": "Peinture intérieure, extérieure et en cabine."
+      },
+      "conditionnement": {
+        "name": "Conditionnement",
+        "text": "Co-packing, conditionnement manuel et semi-industriel."
+      },
+      "jardins": {
+        "name": "Parcs et jardins",
+        "text": "Entretien d’espaces verts, horticulture, cours d’eau, plantes invasives."
+      },
+      "abattoir": {
+        "name": "Abattoir",
+        "text": "Activité agro-alimentaire de proximité, pour les professionnels du secteur."
+      }
+    }
+  },
+  "about": {
+    "kicker": "Le Moulin",
+    "title": "Un moulin au travail depuis 1971.",
+    "lead": "Créée par des habitants de la région, l’ASBL s’est installée dans un ancien moulin au bord de la Hunelle. Depuis 1976, elle est organisée par la Province de Hainaut.",
+    "story": "L’objectif n’a pas changé : mettre au travail, valoriser et rémunérer des adultes dont l’adaptation à un milieu ordinaire est difficile, temporairement ou non. Aujourd’hui, environ 100 collaborateurs font tourner le restaurant, les salles, les livraisons et les ateliers.",
+    "stats": {
+      "year": "Année de création",
+      "people": "Collaborateurs",
+      "rooms": "Salles modulables",
+      "eta": "Statut"
+    },
+    "eta": "Entreprise de Travail Adapté",
+    "accessTitle": "Venir au Moulin",
+    "access": "Rue d’Ath 90, à la limite d’Ath et de Chièvres. Parking gratuit sur place, accès en fauteuil roulant, véranda et restaurant adaptés.",
+    "valuesTitle": "Ce que cela change pour vous",
+    "valuesText": "Choisir le Moulin, c’est un repas, une salle ou un service. C’est aussi soutenir une économie locale non délocalisable. Sans que cela devienne le seul argument : la cuisine et l’accueil tiennent d’abord par eux-mêmes."
+  },
+  "contact": {
+    "kicker": "Contact",
+    "title": "Dites-nous ce dont vous avez besoin.",
+    "lead": "Une table, une salle, un repas livré ou un atelier : choisissez l’objet, le formulaire s’adapte. Le téléphone reste le plus rapide.",
+    "phoneHelp": "Le plus simple, surtout pour une table ou un repas à domicile.",
+    "addressLabel": "Adresse",
+    "hoursLabel": "Horaires d’accueil",
+    "parking": "Parking gratuit sur place.",
+    "accessTitle": "Venir au Moulin",
+    "access": "Rue d’Ath 90, 7950 Chièvres — à la limite d’Ath. Depuis Mons ou Tournai, direction Ath puis Chièvres.",
+    "pmr": "Accès en fauteuil roulant. Restaurant et salles adaptés.",
+    "itinerary": "Ouvrir l’itinéraire",
+    "formTitle": "Votre demande",
+    "formLead": "Choisissez d’abord l’objet : les champs utiles apparaissent ensuite (date, nombre de personnes, atelier, commune).",
+    "objects": {
+      "restaurant": "Restaurant — réserver une table",
+      "salles": "Salles — demander un devis",
+      "repas": "Repas à domicile — inscription",
+      "savoir-faire": "Autre service / atelier",
+      "autre": "Autre demande"
+    },
+    "fields": {
+      "object": "Objet",
+      "name": "Nom",
+      "email": "E-mail",
+      "phone": "Téléphone",
+      "workshop": "Atelier concerné",
+      "commune": "Commune de livraison",
+      "date": "Date souhaitée",
+      "guests": "Nombre de personnes",
+      "message": "Message",
+      "submit": "Envoyer",
+      "sending": "Envoi…",
+      "success": "Merci. Votre message est bien parti. Nous vous recontactons rapidement.",
+      "error": "L’envoi n’a pas abouti. Appelez-nous au 068 65 67 67."
+    }
+  },
+  "days": {
+    "monday": "Lundi",
+    "tuesday": "Mardi",
+    "wednesday": "Mercredi",
+    "thursday": "Jeudi",
+    "friday": "Vendredi",
+    "saturday": "Samedi",
+    "sunday": "Dimanche"
+  },
+  "legal": {
+    "title": "Mentions légales",
+    "publisher": "Éditeur",
+    "publisherText": "ASBL Le Moulin de la Hunelle — Entreprise de Travail Adapté. Rue d’Ath 90, 7950 Chièvres. Tél. 068 65 67 67. info@hunelle.be.",
+    "hosting": "Hébergement",
+    "hostingText": "Site réalisé par LD Media. L’hébergement sera précisé à la mise en ligne.",
+    "credits": "Crédits photos",
+    "creditsText": "Photographies d’illustration en attendant la banque d’images du Moulin (Unsplash). Les visuels définitifs remplaceront ces placeholders."
+  },
+  "privacy": {
+    "title": "Confidentialité",
+    "intro": "Les formulaires collectent nom, e-mail, téléphone et message pour traiter votre demande (restaurant, salles, repas à domicile, autres services). Les données ne sont pas vendues.",
+    "retention": "Conservation",
+    "retentionText": "Les messages sont conservés le temps du traitement de la demande, puis archivés de façon limitée pour le suivi commercial.",
+    "rights": "Vos droits",
+    "rightsText": "Vous pouvez demander l’accès, la rectification ou la suppression de vos données à info@hunelle.be.",
+    "cookies": "Cookies",
+    "cookiesText": "Un bandeau vous permet d’accepter ou de refuser la mesure d’audience (Google Analytics), si elle est activée."
+  },
+  "sitemap": {
+    "title": "Plan du site",
+    "lead": "Toutes les pages du Moulin de la Hunelle, pour trouver une salle, le restaurant, un atelier ou les mentions légales.",
+    "main": "Pages principales",
+    "legal": "Informations légales",
+    "legalLink": "Mentions légales",
+    "privacyLink": "Confidentialité"
+  },
+  "cookies": {
+    "title": "Cookies",
+    "text": "Nous utilisons un outil de mesure d’audience si vous l’acceptez. Refuser n’empêche pas de naviguer.",
+    "more": "En savoir plus",
+    "accept": "Accepter",
+    "refuse": "Refuser"
+  }
+}
