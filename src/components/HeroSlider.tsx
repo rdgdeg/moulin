@@ -41,49 +41,51 @@ export function HeroSlider() {
 
   return (
     <section
-      className="relative h-[100svh] min-h-[640px] overflow-hidden bg-moss-deep text-white"
+      className="flex min-h-[100svh] flex-col bg-moss-deep text-white md:relative md:block md:h-[100svh] md:min-h-[640px] md:overflow-hidden"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >
-      {slides.map((item, i) => (
-        <div
-          key={item.id}
-          className={`absolute inset-0 transition-opacity duration-1000 ${
-            i === index ? "opacity-100" : "opacity-0"
-          }`}
-        >
-          <Image
-            src={item.image}
-            alt=""
-            fill
-            priority={i === 0}
-            className={`object-cover ${i === index ? "kenburns" : ""}`}
-            sizes="100vw"
-          />
-        </div>
-      ))}
-      <div className="absolute inset-0 bg-black/25" />
-      <div className="relative z-10 flex h-full items-end">
-        <div className="w-full max-w-xl bg-moss px-6 py-8 text-white sm:px-10 sm:py-10">
+      <div className="relative aspect-[4/3] w-full shrink-0 overflow-hidden md:absolute md:inset-0 md:aspect-auto">
+        {slides.map((item, i) => (
+          <div
+            key={item.id}
+            className={`absolute inset-0 transition-opacity duration-1000 ${
+              i === index ? "opacity-100" : "opacity-0"
+            }`}
+          >
+            <Image
+              src={item.image}
+              alt=""
+              fill
+              priority={i === 0}
+              className={`object-cover object-center ${i === index ? "kenburns" : ""}`}
+              sizes="100vw"
+            />
+          </div>
+        ))}
+        <div className="absolute inset-0 bg-black/20 md:bg-black/25" />
+      </div>
+      <div className="relative z-10 flex flex-1 flex-col md:absolute md:inset-0 md:flex md:h-full md:flex-none md:items-end">
+        <div className="flex w-full flex-1 flex-col justify-center bg-moss px-5 pt-6 pb-[4.75rem] text-white sm:px-10 md:max-w-xl md:flex-none md:justify-start md:px-6 md:py-8">
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.2em] text-white/85">
             {t(`${slide.id}.kicker`)}
           </p>
           <h1
             key={slide.id}
-            className="font-display mt-2 text-3xl leading-[1.12] font-medium sm:text-4xl"
+            className="font-display mt-2 text-[1.65rem] leading-[1.12] font-medium sm:text-4xl"
           >
             {t(`${slide.id}.title`)}
           </h1>
-          <p className="mt-3 max-w-md text-[0.95rem] leading-relaxed text-white/95">
+          <p className="mt-2.5 max-w-md text-[0.92rem] leading-relaxed text-white/95 sm:mt-3 sm:text-[0.95rem]">
             {t(`${slide.id}.text`)}
           </p>
           <Link
             href={slide.href}
-            className="mt-6 inline-flex min-h-11 items-center bg-white px-5 py-2.5 text-sm font-medium tracking-wide text-moss"
+            className="mt-5 inline-flex min-h-11 items-center bg-white px-5 py-2.5 text-sm font-medium tracking-wide text-moss md:mt-6"
           >
             {t(`${slide.id}.cta`)}
           </Link>
-          <div className="mt-6 flex items-center justify-between gap-4">
+          <div className="mt-5 flex items-center justify-between gap-4 md:mt-6">
             <div className="flex items-center gap-2">
               {slides.map((item, i) => (
                 <button
