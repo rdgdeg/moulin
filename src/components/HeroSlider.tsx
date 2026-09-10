@@ -45,7 +45,7 @@ export function HeroSlider() {
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >
-      <div className="relative aspect-[4/3] w-full shrink-0 overflow-hidden md:absolute md:inset-0 md:aspect-auto">
+      <div className="relative min-h-[62svh] flex-1 overflow-hidden md:absolute md:inset-0 md:min-h-0 md:flex-none">
         {slides.map((item, i) => (
           <div
             key={item.id}
@@ -63,29 +63,29 @@ export function HeroSlider() {
             />
           </div>
         ))}
-        <div className="absolute inset-0 bg-black/20 md:bg-black/25" />
+        <div className="absolute inset-0 bg-black/15 md:bg-black/25" />
       </div>
-      <div className="relative z-10 flex flex-1 flex-col md:absolute md:inset-0 md:flex md:h-full md:flex-none md:items-end">
-        <div className="flex w-full flex-1 flex-col justify-center bg-moss px-5 pt-6 pb-[4.75rem] text-white sm:px-10 md:max-w-xl md:flex-none md:justify-start md:px-6 md:py-8">
+      <div className="relative z-10 shrink-0 md:flex md:h-full md:items-end">
+        <div className="w-full bg-moss px-5 pt-4 pb-[4.5rem] text-white sm:px-10 md:max-w-xl md:px-6 md:py-8">
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.2em] text-white/85">
             {t(`${slide.id}.kicker`)}
           </p>
           <h1
             key={slide.id}
-            className="font-display mt-2 text-[1.65rem] leading-[1.12] font-medium sm:text-4xl"
+            className="font-display mt-1.5 text-[1.55rem] leading-[1.12] font-medium sm:text-4xl"
           >
             {t(`${slide.id}.title`)}
           </h1>
-          <p className="mt-2.5 max-w-md text-[0.92rem] leading-relaxed text-white/95 sm:mt-3 sm:text-[0.95rem]">
+          <p className="mt-2 hidden max-w-md text-[0.95rem] leading-relaxed text-white/95 sm:mt-3 md:block">
             {t(`${slide.id}.text`)}
           </p>
           <Link
             href={slide.href}
-            className="mt-5 inline-flex min-h-11 items-center bg-white px-5 py-2.5 text-sm font-medium tracking-wide text-moss md:mt-6"
+            className="mt-4 inline-flex min-h-11 items-center bg-white px-5 py-2.5 text-sm font-medium tracking-wide text-moss md:mt-6"
           >
             {t(`${slide.id}.cta`)}
           </Link>
-          <div className="mt-5 flex items-center justify-between gap-4 md:mt-6">
+          <div className="mt-4 flex items-center justify-between gap-4 md:mt-6">
             <div className="flex items-center gap-2">
               {slides.map((item, i) => (
                 <button
