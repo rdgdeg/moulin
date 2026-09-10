@@ -20,7 +20,7 @@ export async function Footer() {
 
   return (
     <footer className="bg-moss text-white">
-      <div className="mx-auto grid max-w-7xl items-start gap-8 px-5 py-10 md:grid-cols-2 lg:grid-cols-[0.9fr_0.7fr_0.9fr_1.3fr] lg:px-8">
+      <div className="mx-auto grid min-w-0 max-w-7xl items-start gap-8 px-5 py-10 md:grid-cols-2 lg:grid-cols-[0.9fr_0.7fr_0.9fr_1.3fr] lg:px-8">
         <div>
           <Logo size={88} className="h-[5.5rem] w-[5.5rem]" />
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-white/90">
@@ -122,7 +122,7 @@ export async function Footer() {
             {t("map")}
           </p>
           <div className="mt-3 overflow-hidden">
-            <MapEmbed className="h-44 w-full" />
+            <MapEmbed className="h-44 w-full max-w-full" />
           </div>
           <a
             href={site.mapsDirections}

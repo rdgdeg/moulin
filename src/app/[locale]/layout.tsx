@@ -59,7 +59,7 @@ export default async function LocaleLayout({
           <JsonLd />
           <Analytics />
           <Header />
-          <main id="contenu" className="flex-1">
+          <main id="contenu" className="min-w-0 flex-1">
             {children}
           </main>
           <Footer />

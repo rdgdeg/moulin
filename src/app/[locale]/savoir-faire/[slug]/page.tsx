@@ -52,8 +52,8 @@ export default async function SkillPage({ params }: Props) {
         image={skill.image}
       />
       <article className="bg-white pt-12 lg:pt-16">
-        <div className="mx-auto grid max-w-7xl lg:grid-cols-2">
-          <Reveal className="h-full bg-moss px-8 py-14 text-white lg:px-14 lg:py-16">
+        <div className="mx-auto grid min-w-0 max-w-7xl lg:grid-cols-2">
+          <Reveal className="h-full min-w-0 bg-moss px-5 py-14 text-white lg:px-14 lg:py-16">
             <p className="text-[0.7rem] uppercase tracking-[0.2em] text-white/80">
               {t("kicker")}
             </p>
@@ -75,7 +75,7 @@ export default async function SkillPage({ params }: Props) {
               <strong className="text-white">{t("area")} :</strong> {copy.area}
             </p>
           </Reveal>
-          <Reveal className="h-full bg-paper-soft px-8 py-14 lg:px-14 lg:py-16" delay={120}>
+          <Reveal className="h-full min-w-0 bg-paper-soft px-5 py-14 lg:px-14 lg:py-16" delay={120}>
             <h2 className="font-display text-3xl">{t("cta")}</h2>
             <p className="mt-3 mb-6 text-stone">{t("formLead")}</p>
             <Suspense>

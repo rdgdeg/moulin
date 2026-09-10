@@ -39,12 +39,12 @@ export default async function RoomsPage({ params }: Props) {
         <Reveal>
           <h2 className="font-display text-4xl">{t("listTitle")}</h2>
         </Reveal>
-        <div className="mt-10 grid gap-8 lg:grid-cols-2">
+        <div className="mt-10 grid min-w-0 gap-8 lg:grid-cols-2">
           {rooms.map((room, index) => (
-            <Reveal key={room.slug} delay={index * 90} className="h-full">
+            <Reveal key={room.slug} delay={index * 90} className="h-full min-w-0">
               <Link
                 href={{ pathname: "/salles/[slug]", params: { slug: room.slug } }}
-                className="group flex h-full flex-col overflow-hidden bg-white transition duration-500 hover:-translate-y-1 hover:shadow-[0_24px_48px_-28px_rgba(0,0,0,0.35)] motion-reduce:transition-none motion-reduce:hover:translate-y-0 motion-reduce:hover:shadow-none"
+                className="group flex h-full w-full min-w-0 flex-col overflow-hidden bg-white transition duration-500 hover:-translate-y-1 hover:shadow-[0_24px_48px_-28px_rgba(0,0,0,0.35)] motion-reduce:transition-none motion-reduce:hover:translate-y-0 motion-reduce:hover:shadow-none"
               >
                 <div className="relative aspect-[16/9] overflow-hidden">
                   <Image

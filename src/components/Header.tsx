@@ -8,7 +8,7 @@ import { skills } from "@/lib/skills";
 import { Logo } from "./Logo";
 import { LocaleSwitcher } from "./LocaleSwitcher";
 import { FacebookIcon } from "./FacebookIcon";
-import { ChevronDownIcon, ContactIcon } from "./Icons";
+import { ChevronDownIcon, CloseIcon, ContactIcon, MenuIcon } from "./Icons";
 
 const links = [
   { href: "/" as const, key: "home" },
@@ -172,10 +172,12 @@ export function Header() {
           </a>
           <button
             type="button"
-            className="min-h-11 px-2 uppercase"
+            className="inline-flex min-h-11 items-center gap-2 px-1.5 text-[0.8rem] font-medium uppercase tracking-[0.12em]"
             onClick={() => setOpen((value) => !value)}
             aria-expanded={open}
+            aria-label={open ? t("close") : t("menu")}
           >
+            {open ? <CloseIcon className="h-5 w-5" /> : <MenuIcon className="h-5 w-5" />}
             {open ? t("close") : t("menu")}
           </button>
         </div>

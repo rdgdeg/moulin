@@ -53,8 +53,8 @@ export async function RoomQuote({ children }: { children: ReactNode }) {
 
   return (
     <section className="bg-white pb-16 lg:pb-20">
-      <div className="mx-auto grid max-w-7xl lg:grid-cols-2">
-        <Reveal className="h-full bg-moss px-8 py-12 text-white sm:px-10 lg:px-14 lg:py-16">
+      <div className="mx-auto grid min-w-0 max-w-7xl lg:grid-cols-2">
+        <Reveal className="h-full min-w-0 bg-moss px-5 py-12 text-white sm:px-10 lg:px-14 lg:py-16">
           <p className="text-[0.7rem] uppercase tracking-[0.22em] text-white/80">
             {t("pricingKicker")}
           </p>
@@ -73,7 +73,7 @@ export async function RoomQuote({ children }: { children: ReactNode }) {
             </ul>
           </div>
         </Reveal>
-        <Reveal className="h-full bg-paper-soft px-8 py-12 sm:px-10 lg:px-14 lg:py-16" delay={120}>
+        <Reveal className="h-full min-w-0 bg-paper-soft px-5 py-12 sm:px-10 lg:px-14 lg:py-16" delay={120}>
           {children}
         </Reveal>
       </div>

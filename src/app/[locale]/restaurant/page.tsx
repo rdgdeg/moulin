@@ -92,8 +92,8 @@ export default async function RestaurantPage({ params }: Props) {
         </div>
       </section>
       <section className="bg-white py-12 lg:py-16">
-        <div className="mx-auto grid max-w-7xl lg:grid-cols-2">
-          <Reveal className="h-full bg-white px-8 py-14 lg:px-14 lg:py-16">
+        <div className="mx-auto grid min-w-0 max-w-7xl lg:grid-cols-2">
+          <Reveal className="h-full min-w-0 bg-white px-5 py-14 lg:px-14 lg:py-16">
             <div className="mb-8 flex flex-wrap items-end justify-between gap-4">
               <div>
                 <h2 className="font-display text-4xl">{t("reviewsTitle")}</h2>
@@ -115,7 +115,7 @@ export default async function RestaurantPage({ params }: Props) {
               ))}
             </div>
           </Reveal>
-          <Reveal className="h-full bg-paper-soft px-8 py-14 lg:px-14 lg:py-16" delay={120}>
+          <Reveal className="h-full min-w-0 bg-paper-soft px-5 py-14 lg:px-14 lg:py-16" delay={120}>
             <h2 className="font-display text-4xl">{t("formTitle")}</h2>
             <p className="mt-3 mb-8 text-stone">{t("formLead")}</p>
             <Suspense>

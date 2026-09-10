@@ -18,12 +18,16 @@
 html {
   scroll-behavior: smooth;
   font-size: 18px;
+  max-width: 100%;
+  overflow-x: clip;
 }
 
 body {
   background: #fff;
   color: var(--color-ink);
   font-family: var(--font-sans), system-ui, sans-serif;
+  max-width: 100%;
+  overflow-x: clip;
 }
 
 p,

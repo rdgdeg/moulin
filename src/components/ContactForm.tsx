@@ -56,10 +56,10 @@ export function ContactForm({
   }
 
   const fieldClass =
-    "min-h-12 border border-ink/20 bg-white px-4 py-3 text-base";
+    "min-h-12 w-full min-w-0 max-w-full border border-ink/20 bg-white px-4 py-3 text-base";
 
   return (
-    <form onSubmit={onSubmit} className="grid gap-5">
+    <form onSubmit={onSubmit} className="grid min-w-0 gap-5">
       <label className="grid gap-2 text-base">
         {t("fields.object")}
         <select

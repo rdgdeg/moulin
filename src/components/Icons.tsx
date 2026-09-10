@@ -112,3 +112,19 @@ export function DeliveryIcon({ className }: { className?: string }) {
     </Icon>
   );
 }
+
+export function MenuIcon({ className }: { className?: string }) {
+  return (
+    <Icon className={className}>
+      <path d="M4 7h16M4 12h16M4 17h16" />
+    </Icon>
+  );
+}
+
+export function CloseIcon({ className }: { className?: string }) {
+  return (
+    <Icon className={className}>
+      <path d="M6 6l12 12M18 6 6 18" />
+    </Icon>
+  );
+}
