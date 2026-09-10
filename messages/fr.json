@@ -25,6 +25,7 @@
     "rooms": "Salles",
     "homeMeals": "Repas à domicile",
     "craft": "Savoir-faire",
+    "allCraft": "Tous les savoir-faire",
     "about": "Le Moulin",
     "contact": "Contact",
     "cta": "Réserver / devis",
@@ -36,6 +37,7 @@
     "tagline": "ETA à Chièvres — salles, restaurant, repas à domicile.",
     "poles": "Nos services",
     "madeBy": "Site réalisé par",
+    "agency": "LD Media — Agence de communication à Chièvres et Ath",
     "visit": "Venir au Moulin",
     "hours": "Horaires d’accueil",
     "restaurantHours": "Horaires du restaurant",
@@ -51,6 +53,7 @@
   },
   "common": {
     "call": "Appeler",
+    "callBar": "Appeler le Moulin — 068 65 67 67",
     "email": "Écrire",
     "book": "Réserver",
     "backToTop": "Haut de page",
@@ -120,6 +123,12 @@
         "title": "Livraison de repas",
         "text": "Potage, plat et dessert livrés à domicile, chaque jour de la semaine, selon vos demandes.",
         "cta": "Voir le service"
+      },
+      "craft": {
+        "title": "Savoir-faire",
+        "text": "Garnissage, confection, jardins, menuiserie… pour les particuliers et les entreprises.",
+        "cta": "Voir les services",
+        "badge": "Ateliers"
       }
     },
     "proofTitle": "Ce que l’on retient du lieu.",
@@ -150,6 +159,7 @@
     "title": "À table le midi, face au parc.",
     "lead": "Cuisine française, plat du jour et trois suggestions chaque semaine. Le restaurant n’ouvre pas le soir : on y déjeune, on y emporte, on y réserve pour un déjeuner d’affaires.",
     "hoursTitle": "Horaires",
+    "hoursShort": "Lundi–vendredi, midi uniquement. Fermé le soir et le week-end.",
     "menuTitle": "Le menu de la semaine",
     "menuLead": "Le même format que sur Facebook — une publication, toute la semaine. Réservez par téléphone.",
     "dish": "Plat du jour",
@@ -271,8 +281,25 @@
     "title": "Un repas complet, livré chez vous.",
     "lead": "Chaque jour de la semaine : potage, plat et dessert. Le menu suit celui du restaurant. Sur demande, plat froid et textures adaptées (viande coupée, repas mouliné).",
     "priceLabel": "Formule",
+    "menuTitle": "Le menu de la semaine",
+    "menuLead": "C’est le même menu qu’au restaurant : potage, plat du jour et dessert, livrés chez vous.",
     "zoneTitle": "Zone de livraison",
-    "zoneLead": "Chièvres, Belœil, Lens, Brugelette et le centre d’Ath — ainsi que les villages alentour (Ligne, Rebaix, Ormeignies, Moulbaix, Isières, Irchonwelz, Blicquy, Autreppe…).",
+    "zoneLead": "Chièvres, Ath et les communes voisines — un appel suffit pour vérifier votre rue.",
+    "communes": [
+      "Chièvres",
+      "Ath",
+      "Belœil",
+      "Lens",
+      "Brugelette",
+      "Ligne",
+      "Rebaix",
+      "Ormeignies",
+      "Moulbaix",
+      "Isières",
+      "Irchonwelz",
+      "Blicquy",
+      "Autreppe"
+    ],
     "points": {
       "daily": {
         "title": "Tous les jours de la semaine",

@@ -53,7 +53,7 @@ export default async function LocaleLayout({
       lang={locale}
       className={`${fraunces.variable} ${montserrat.variable} h-full antialiased`}
     >
-      <body className="min-h-full bg-paper font-sans text-base leading-relaxed text-ink">
+      <body className="min-h-full bg-paper pb-16 font-sans text-base leading-relaxed text-ink md:pb-0">
         <NextIntlClientProvider messages={messages}>
           <SkipLink />
           <JsonLd />

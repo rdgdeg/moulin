@@ -28,7 +28,7 @@ export default async function CraftPage({ params }: Props) {
 
   function Grid({ ids }: { ids: typeof skills }) {
     return (
-      <div className="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {ids.map((skill, index) => (
           <Reveal key={skill.id} delay={index * 70} className="h-full">
             <article className="h-full overflow-hidden bg-white">
@@ -42,12 +42,14 @@ export default async function CraftPage({ params }: Props) {
                     alt=""
                     fill
                     className="object-cover transition duration-700 group-hover:scale-110 motion-reduce:transition-none motion-reduce:group-hover:scale-100"
-                    sizes="33vw"
+                    sizes="(min-width:1024px) 25vw, 50vw"
                   />
                 </div>
                 <div className="flex flex-1 flex-col p-6">
-                  <h3 className="font-display text-2xl">{t(`items.${skill.id}.name`)}</h3>
-                  <p className="mt-3 flex-1 text-stone">{t(`items.${skill.id}.text`)}</p>
+                  <h3 className="font-display text-xl lg:text-2xl">{t(`items.${skill.id}.name`)}</h3>
+                  <p className="mt-3 flex-1 text-sm leading-relaxed text-stone lg:text-base">
+                    {t(`items.${skill.id}.text`)}
+                  </p>
                   <span className="mt-5 inline-flex w-fit items-center gap-0 bg-transparent px-4 py-2 text-sm font-medium underline decoration-moss underline-offset-4 transition duration-300 group-hover:gap-2 group-hover:bg-moss group-hover:text-white group-hover:no-underline motion-reduce:transition-none">
                     <span className="inline-flex max-w-0 overflow-hidden transition-[max-width] duration-300 group-hover:max-w-5">
                       <SearchIcon className="h-3.5 w-3.5" />

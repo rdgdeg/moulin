@@ -147,7 +147,7 @@ export async function Footer() {
               rel="noreferrer"
               target="_blank"
             >
-              LD Media — Agence de communication
+              {t("agency")}
             </a>
           </p>
         </div>

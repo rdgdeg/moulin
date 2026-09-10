@@ -9,6 +9,7 @@ import { PhotoMosaic } from "@/components/PhotoMosaic";
 import { Reveal } from "@/components/Reveal";
 import { getMenu, getSettings } from "@/lib/content";
 import { site } from "@/lib/site";
+import { ClockIcon, RestaurantIcon } from "@/components/Icons";
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -38,37 +39,55 @@ export default async function RestaurantPage({ params }: Props) {
         lead={t("lead")}
         image="/images/hero/restaurant.jpg"
       />
-      <section className="bg-white py-12 lg:py-16">
-        <div className="mx-auto grid max-w-7xl gap-12 bg-moss px-8 py-14 text-white lg:grid-cols-2 lg:px-14 lg:py-16">
-          <Reveal>
-            <p className="text-[0.7rem] uppercase tracking-[0.2em] text-white/80">
-              {t("hoursTitle")}
-            </p>
-            <p className="font-display mt-4 text-4xl sm:text-5xl">
-              {settings.lunchFrom} – {settings.lunchTo}
-            </p>
-            <p className="mt-5 max-w-lg text-lg text-white/90">{settings.hoursNote}</p>
-            <a
-              href={site.phoneHref}
-              className="mt-8 inline-flex bg-white px-6 py-3 text-sm font-medium text-moss transition duration-300 hover:bg-white/90"
-            >
-              {common("call")} {site.phone}
-            </a>
-          </Reveal>
-          <Reveal delay={120}>
-            <h2 className="font-display text-4xl">{t("takeaway")}</h2>
-            <p className="mt-5 text-lg leading-relaxed text-white/90">{t("takeawayText")}</p>
-            <p className="mt-6 text-white/90">{t("menuLead")}</p>
-          </Reveal>
-        </div>
-      </section>
       <section className="bg-paper-soft">
-        <div className="mx-auto max-w-7xl px-5 py-20 lg:px-8">
+        <div className="mx-auto max-w-7xl px-5 py-16 lg:px-8 lg:py-20">
           <Reveal>
             <h2 className="font-display mb-8 text-4xl">{t("menuTitle")}</h2>
           </Reveal>
           <Reveal delay={80}>
             <WeeklyMenu menu={menu} />
+          </Reveal>
+        </div>
+      </section>
+      <section className="bg-white py-12 lg:py-16">
+        <div className="mx-auto grid max-w-7xl gap-6 px-5 lg:grid-cols-2 lg:px-8">
+          <Reveal className="flex flex-col justify-between bg-moss px-8 py-10 text-white sm:px-10">
+            <div>
+              <p className="flex items-center gap-2 text-[0.68rem] font-semibold uppercase tracking-[0.2em] text-white/80">
+                <ClockIcon className="h-4 w-4" />
+                {t("hoursTitle")}
+              </p>
+              <p className="font-display mt-5 text-4xl sm:text-[2.75rem]">
+                {settings.lunchFrom} – {settings.lunchTo}
+              </p>
+              <p className="mt-4 max-w-sm text-base leading-relaxed text-white/90">
+                {t("hoursShort")}
+              </p>
+            </div>
+            <a
+              href={site.phoneHref}
+              className="mt-8 inline-flex w-fit bg-white px-5 py-3 text-sm font-medium text-moss transition duration-300 hover:bg-white/90"
+            >
+              {common("call")} {site.phone}
+            </a>
+          </Reveal>
+          <Reveal
+            className="flex flex-col justify-between border border-ink/10 bg-paper-soft px-8 py-10 sm:px-10"
+            delay={100}
+          >
+            <div>
+              <RestaurantIcon className="h-6 w-6 text-moss" />
+              <h2 className="font-display mt-4 text-3xl">{t("takeaway")}</h2>
+              <p className="mt-4 max-w-md text-base leading-relaxed text-stone">
+                {t("takeawayText")}
+              </p>
+            </div>
+            <a
+              href={site.phoneHref}
+              className="mt-8 inline-flex w-fit bg-moss px-5 py-3 text-sm font-medium text-white transition duration-300 hover:bg-moss-deep"
+            >
+              {common("call")} {site.phone}
+            </a>
           </Reveal>
         </div>
       </section>

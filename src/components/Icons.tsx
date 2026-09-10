@@ -101,3 +101,14 @@ export function ChevronDownIcon({ className }: { className?: string }) {
     </Icon>
   );
 }
+
+export function DeliveryIcon({ className }: { className?: string }) {
+  return (
+    <Icon className={className}>
+      <path d="M3 7h11v10H3z" />
+      <path d="M14 10h4l3 3v4h-7" />
+      <circle cx="7" cy="17" r="1.5" />
+      <circle cx="17" cy="17" r="1.5" />
+    </Icon>
+  );
+}

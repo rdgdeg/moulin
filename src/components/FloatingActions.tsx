@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { site } from "@/lib/site";
+import { PhoneIcon } from "./Icons";
 
 export function FloatingActions() {
   const t = useTranslations("common");
@@ -18,7 +19,7 @@ export function FloatingActions() {
 
   return (
     <>
-      <div className="fixed top-1/2 right-3 z-40 flex -translate-y-1/2 flex-col gap-2 sm:right-5">
+      <div className="fixed top-1/2 right-5 z-40 hidden -translate-y-1/2 flex-col gap-2 md:flex">
         <Link
           href="/contact"
           aria-label={t("book")}
@@ -56,11 +57,19 @@ export function FloatingActions() {
           </svg>
         </a>
       </div>
+      <a
+        href={site.phoneHref}
+        className="fixed inset-x-0 bottom-0 z-40 flex min-h-14 items-center justify-center gap-2 bg-moss px-4 pt-3.5 text-sm font-semibold tracking-wide text-white md:hidden"
+        style={{ paddingBottom: "max(0.85rem, env(safe-area-inset-bottom))" }}
+      >
+        <PhoneIcon className="h-5 w-5" />
+        {t("callBar")}
+      </a>
       {showTop ? (
         <button
           type="button"
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-          className="fixed right-3 bottom-5 z-40 flex h-11 w-11 items-center justify-center bg-moss text-white shadow-lg sm:right-5"
+          className="fixed right-3 bottom-[4.75rem] z-40 flex h-11 w-11 items-center justify-center bg-moss text-white shadow-lg md:right-5 md:bottom-5"
           aria-label={t("backToTop")}
           title={t("backToTop")}
         >

@@ -25,6 +25,7 @@
     "rooms": "Zalen",
     "homeMeals": "Maaltijden aan huis",
     "craft": "Vakmanschap",
+    "allCraft": "Al het vakmanschap",
     "about": "De Molen",
     "contact": "Contact",
     "cta": "Reserveren / offerte",
@@ -36,6 +37,7 @@
     "tagline": "ETA in Chièvres — zalen, restaurant, maaltijden aan huis.",
     "poles": "Onze diensten",
     "madeBy": "Site réalisé par",
+    "agency": "LD Media — Communicatiebureau in Chièvres en Ath",
     "visit": "Naar de Molen",
     "hours": "Onthaaluren",
     "restaurantHours": "Restauranturen",
@@ -51,6 +53,7 @@
   },
   "common": {
     "call": "Bellen",
+    "callBar": "Bel de Molen — 068 65 67 67",
     "email": "Mailen",
     "book": "Reserveren",
     "backToTop": "Naar boven",
@@ -120,6 +123,12 @@
         "title": "Maaltijden aan huis",
         "text": "Soep, hoofdgerecht en dessert, geleverd op weekdagen, volgens uw vraag.",
         "cta": "De dienst bekijken"
+      },
+      "craft": {
+        "title": "Vakmanschap",
+        "text": "Stoffering, confectie, tuinen, schrijnwerkerij… voor particulieren en bedrijven.",
+        "cta": "De diensten bekijken",
+        "badge": "Ateliers"
       }
     },
     "proofTitle": "Wat deze plek onderscheidt.",
@@ -150,6 +159,7 @@
     "title": "Tafelen ’s middags, met zicht op het park.",
     "lead": "Franse keuken, dagschotel en drie suggesties per week. Het restaurant opent ’s avonds niet: u luncht, u haalt af, u reserveert voor een zakenlunch.",
     "hoursTitle": "Openingsuren",
+    "hoursShort": "Maandag–vrijdag, alleen ’s middags. ’s Avonds en in het weekend gesloten.",
     "menuTitle": "Het weekmenu",
     "menuLead": "Hetzelfde formaat als op Facebook — één bericht, de hele week. Reserveer telefonisch.",
     "dish": "Dagschotel",
@@ -271,8 +281,25 @@
     "title": "Een volledige maaltijd, bij u geleverd.",
     "lead": "Elke weekdag: soep, hoofdgerecht en dessert. Het menu volgt dat van het restaurant. Op vraag: koude schotel en aangepaste texturen (gesneden vlees, gemalen maaltijd).",
     "priceLabel": "Formule",
+    "menuTitle": "Het menu van de week",
+    "menuLead": "Hetzelfde menu als in het restaurant: soep, dagschotel en dessert, bij u geleverd.",
     "zoneTitle": "Leveringszone",
-    "zoneLead": "Chièvres, Belœil, Lens, Brugelette en het centrum van Ath — plus omliggende dorpen (Ligne, Rebaix, Ormeignies, Moulbaix, Isières, Irchonwelz, Blicquy, Autreppe…).",
+    "zoneLead": "Chièvres, Ath en de buurgemeenten — een telefoontje volstaat om uw straat te checken.",
+    "communes": [
+      "Chièvres",
+      "Ath",
+      "Belœil",
+      "Lens",
+      "Brugelette",
+      "Ligne",
+      "Rebaix",
+      "Ormeignies",
+      "Moulbaix",
+      "Isières",
+      "Irchonwelz",
+      "Blicquy",
+      "Autreppe"
+    ],
     "points": {
       "daily": {
         "title": "Elke weekdag",

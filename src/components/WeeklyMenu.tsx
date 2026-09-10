@@ -5,9 +5,11 @@ import type { WeeklyMenu } from "@/lib/content";
 export async function WeeklyMenu({
   menu,
   compact = false,
+  showNote = true,
 }: {
   menu: WeeklyMenu;
   compact?: boolean;
+  showNote?: boolean;
 }) {
   const t = await getTranslations("restaurant");
   const days = await getTranslations("days");
@@ -21,7 +23,7 @@ export async function WeeklyMenu({
           </p>
           <p className="mt-1 text-xl font-semibold">{menu.weekLabel}</p>
         </div>
-        {menu.note ? (
+        {showNote && menu.note ? (
           <p className="max-w-sm text-sm text-white/80">{menu.note}</p>
         ) : null}
       </div>

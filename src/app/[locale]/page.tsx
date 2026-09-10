@@ -25,8 +25,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 const poles: {
   href: Exclude<Pathname, "/salles/[slug]" | "/savoir-faire/[slug]">;
   image: string;
-  key: "rooms" | "restaurant" | "meals";
-  badgeKey: "cateringOnSite" | "lunchOnly" | "price";
+  key: "rooms" | "restaurant" | "meals" | "craft";
+  badgeKey: "cateringOnSite" | "lunchOnly" | "price" | "craft";
 }[] = [
   {
     href: "/salles",
@@ -45,6 +45,12 @@ const poles: {
     image: "/images/repas/formule.jpg",
     key: "meals",
     badgeKey: "price",
+  },
+  {
+    href: "/savoir-faire",
+    image: "/images/savoir-faire/jardins.jpg",
+    key: "craft",
+    badgeKey: "craft",
   },
 ];
 
@@ -103,7 +109,7 @@ export default async function HomePage({ params }: Props) {
       </section>
 
       <section className="mx-auto max-w-7xl px-5 pb-20 lg:px-8">
-        <div className="grid gap-8 md:grid-cols-3">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {poles.map((pole) => (
             <Link
               key={pole.key}
@@ -116,16 +122,18 @@ export default async function HomePage({ params }: Props) {
                   alt=""
                   fill
                   className="object-cover transition duration-700 group-hover:scale-110 motion-reduce:transition-none motion-reduce:group-hover:scale-100"
-                  sizes="(min-width:768px) 33vw, 100vw"
+                  sizes="(min-width:1024px) 25vw, 50vw"
                 />
               </div>
               <div className="flex flex-1 flex-col p-6">
                 <p className="text-[0.68rem] tracking-[0.16em] text-moss-deep uppercase">
                   {pole.badgeKey === "price"
                     ? settings.homeMealPrice
-                    : common(pole.badgeKey)}
+                    : pole.badgeKey === "craft"
+                      ? t("poles.craft.badge")
+                      : common(pole.badgeKey)}
                 </p>
-                <h3 className="font-display mt-2 text-3xl">
+                <h3 className="font-display mt-2 text-2xl">
                   {t(`poles.${pole.key}.title`)}
                 </h3>
                 <p className="mt-3 flex-1 text-base leading-relaxed text-stone">
