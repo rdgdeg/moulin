@@ -5,11 +5,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import type { Pathname } from "@/i18n/routing";
-import {
-  ChevronDownIcon,
-  ChevronLeftIcon,
-  ChevronRightIcon,
-} from "./Icons";
+import { ChevronLeftIcon, ChevronRightIcon } from "./Icons";
 
 const slides: {
   id: "salles" | "restaurant" | "repas" | "lieu";
@@ -68,24 +64,26 @@ export function HeroSlider() {
       ))}
       <div className="absolute inset-0 bg-black/25" />
       <div className="relative z-10 flex h-full items-end">
-        <div className="w-full max-w-2xl bg-moss px-7 pt-10 pb-20 text-white sm:px-12 sm:pt-14 sm:pb-16">
-          <p className="text-[0.72rem] font-semibold uppercase tracking-[0.22em] text-white/85">
+        <div className="w-full max-w-xl bg-moss px-6 py-8 text-white sm:px-10 sm:py-10">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.2em] text-white/85">
             {t(`${slide.id}.kicker`)}
           </p>
           <h1
             key={slide.id}
-            className="font-display mt-3 text-4xl leading-[1.08] font-medium sm:text-6xl"
+            className="font-display mt-2 text-3xl leading-[1.12] font-medium sm:text-4xl"
           >
             {t(`${slide.id}.title`)}
           </h1>
-          <p className="mt-5 max-w-lg text-lg text-white/95">{t(`${slide.id}.text`)}</p>
+          <p className="mt-3 max-w-md text-[0.95rem] leading-relaxed text-white/95">
+            {t(`${slide.id}.text`)}
+          </p>
           <Link
             href={slide.href}
-            className="mt-8 inline-flex min-h-12 items-center bg-white px-6 py-3 text-sm font-medium tracking-wide text-moss"
+            className="mt-6 inline-flex min-h-11 items-center bg-white px-5 py-2.5 text-sm font-medium tracking-wide text-moss"
           >
             {t(`${slide.id}.cta`)}
           </Link>
-          <div className="mt-10 flex items-center justify-between gap-4">
+          <div className="mt-6 flex items-center justify-between gap-4">
             <div className="flex items-center gap-2">
               {slides.map((item, i) => (
                 <button
@@ -104,29 +102,22 @@ export function HeroSlider() {
                 type="button"
                 onClick={() => go(-1)}
                 aria-label={home("prevSlide")}
-                className="flex h-10 w-10 items-center justify-center border border-white/40 text-white transition hover:bg-white hover:text-moss"
+                className="flex h-9 w-9 items-center justify-center border border-white/40 text-white transition hover:bg-white hover:text-moss"
               >
-                <ChevronLeftIcon className="h-5 w-5" />
+                <ChevronLeftIcon className="h-4 w-4" />
               </button>
               <button
                 type="button"
                 onClick={() => go(1)}
                 aria-label={home("nextSlide")}
-                className="flex h-10 w-10 items-center justify-center border border-white/40 text-white transition hover:bg-white hover:text-moss"
+                className="flex h-9 w-9 items-center justify-center border border-white/40 text-white transition hover:bg-white hover:text-moss"
               >
-                <ChevronRightIcon className="h-5 w-5" />
+                <ChevronRightIcon className="h-4 w-4" />
               </button>
             </div>
           </div>
         </div>
       </div>
-      <a
-        href="#accueil-suite"
-        className="absolute inset-x-0 bottom-7 z-20 mx-auto flex w-fit flex-col items-center gap-1 text-[0.78rem] font-semibold tracking-[0.22em] text-white uppercase drop-shadow-[0_1px_8px_rgba(0,0,0,0.55)]"
-      >
-        {home("scroll")}
-        <ChevronDownIcon className="scroll-hint-chevron h-5 w-5" />
-      </a>
     </section>
   );
 }
